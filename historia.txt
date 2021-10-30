@@ -5,3 +5,5 @@ Mario tiene 25 años.
 Vive en la ciudad de Mexico
 
 Hoy hablaremos de su historia y su vida.
+
+Es un gran programador.
