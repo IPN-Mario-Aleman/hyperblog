@@ -91,22 +91,32 @@ git pull origin main –allow-unrelated-histories
 
 
 Para cambiar el url
+
 Origin es el nombre de nuestro repositorio remoto
+
 Git remote set-url “nombre del origin” git@github.com:IPN-Mario-Aleman/hyperblog.git
+
 Git remote -v ->para saber que link tienen
 
+
+
 **Recomendaciones**
+
 Antes de realizar algun commit se debe traer la última versión de nuestro repositorio.
+
 $ alias = “git log –all –graph –decorate --oneline” -> guarda una línea de comando --> ademas de que este comando muestra de forma gráfica todos los commit realizados, asi como las ramas en ella.
+
 
 git tag -a v0.1 -m "Resultado de las primeras clases del curso" 'No. del commit sin comillas' -> guarda un commit con el nombre de un tag que puede ser una nueva versión.
 
+
 Crear un nuevo tag y asignarlo a un commit: git tag -a nombre-del-tag id-del-commit.
+
 Borrar un tag en el repositorio local: git tag -d nombre-del-tag.
+
 Listar los tags de nuestro repositorio local: git tag o git show-ref --tags.
+
 Publicar un tag en el repositorio remoto: git push origin --tags.
+
 Borrar un tag del repositorio remoto: git tag -d nombre-del-tag y git push origin :refs/tags/nombre-del-tag.
 
-
-	
-	
